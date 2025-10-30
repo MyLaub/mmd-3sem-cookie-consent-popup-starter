@@ -17,9 +17,7 @@ const CookieConsentPopup = () => {
         <footer className="cookie-consent-popup-footer">
           <p className="cookie-consent-popup-paragraph">We use cookies to improve your user experience!</p>
 
-          <CookieAcceptButton 
-          isAccepted={isAccepted} 
-          setIsAccepted={setIsAccepted}/>
+          <CookieAcceptButton isAccepted={isAccepted} setIsAccepted={setIsAccepted} />
         </footer>
       </section>
     )
